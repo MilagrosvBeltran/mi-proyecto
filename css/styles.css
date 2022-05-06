@@ -1,0 +1,24 @@
+body {
+    background-image: url(../multimedia/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px
+}
+#offcanvasNavbar {
+    background-color: rgba(26, 21, 21, 0.699);
+    color: antiquewhite;
+}
+
+.carousel slide carousel-fade {
+    height: 300px;
+}
+
+header {
+    height: 55px;
+}
+#logo-footer{
+width: -webkit-fill-available;
+}
+#red-social {
+    width: 25%;
+}
