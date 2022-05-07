@@ -8,17 +8,36 @@ body {
     background-color: rgba(26, 21, 21, 0.699);
     color: antiquewhite;
 }
+main{
+    font-family: 'Oswald', sans-serif;
+}
 
 .carousel slide carousel-fade {
     height: 300px;
 }
 
 header {
-    height: 55px;
+    height: 100px;
+}
+#hamburguesa {
+    border-color: ghostwhite;
+}
+main {
+    font-family: 'Oswald', sans-serif;
+}
+#main-faq {
+    height: 100vp;
+}
+footer {
+    background-color: rgba(0,0,0,0.5);
+    font-family: 'Oswald', sans-serif;
 }
 #logo-footer{
-width: -webkit-fill-available;
+    width: -webkit-fill-available;
 }
 #red-social {
-    width: 25%;
+    width: 10%;
+}
+.card {
+    background-color: none;
 }
