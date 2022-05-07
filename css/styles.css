@@ -1,5 +1,6 @@
 body {
-    background-image: url(../multimedia/fondo.png);
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(1,1,6,0.9192051820728291) 44%, rgba(0,0,0,1) 100%);
     background-size: cover;
     background-attachment: fixed;
     margin: 0px
@@ -18,9 +19,6 @@ main{
 
 header {
     height: 100px;
-}
-#hamburguesa {
-    border-color: ghostwhite;
 }
 main {
     font-family: 'Oswald', sans-serif;
