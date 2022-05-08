@@ -8,13 +8,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="container-fluid">
+    <!--#######################################################-->
+    <!--HEADER-->
     <header class="row">
         <nav class="navbar navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="../index.html">
                     <img src="../multimedia/logo-header.png" id="Logo-header" alt="" width="210">
                 </a>
                 <button id="hamburguesa" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -31,13 +37,14 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                                <a class="nav-link active text-white" aria-current="page"
+                                    href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link text-white" href="quies-somos.html">Quienes Somos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="faq.html">Faq</a>
+                                <a class="nav-link text-white" href="faq.html">FAQ</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="emisores.html">Emisores</a>
@@ -51,11 +58,28 @@
             </div>
         </nav>
     </header>
-    <footer class="row my-3 bg-dark">
+    <!--#######################################################-->
+    <!--MAIN-->
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-between" style="height: 695px;">
+            <div class="home-banner-content col-lg-6 col-md-6">
+                <h1 class="text-white"> Descarga Uplive<br> ahora y UNETE </h1>
+                <p class="text-secondary">A nuestra gran comunidad, en Magnum Agency trabajamos juntos para hacer los
+                    sueños realidad</p>
+                <div class="download-button d-flex flex-row justify-content-start"> <a class="m-1" target="_blank" href="https://play.google.com/store/apps/details?id=com.asiainno.uplive"><img style="width: 150px;"
+                            src="../multimedia/playstore.png" alt=""></img ></a> <a class="m-1" target="_blank" href="https://apps.apple.com/us/app/uplive-live-stream-go-live/id1235469329"><img style="width: 135px;"
+                            src="../multimedia/appstore.png" alt=""></img></a> </div>
+            </div>
+            <div class="col-6 rounded mx-auto d-block"> <img id="uplive-logo" class="img-fluid" src="../multimedia/logo-uplive2.png" alt=""> </div>
+        </div>
+    </div>
+    <!--#######################################################-->
+    <!--FOOTER-->
+    <footer class="row my-3 ">
         <div class="container">
             <nav class="row">
-                <a href="" class="col-md-4 text-reset text-uppercase d-flex align-items-center"><img id="logo-footer"
-                        src="../multimedia/logo-header.png" alt=""></a>
+                <a href="../index.html"  class="col-md-4 text-reset text-uppercase d-flex align-items-center"><img class="mx-5"
+                        id="logo-footer" src="../multimedia/logo-header.png" alt=""></a>
                 <ul class="col-md-4 list-unstyled text-white">
                     <li class="font-weight-bold text-uppercase">CONTACTANOS</li>
                     <li>Correo: Magnumagencyy@gmail.com</li>
@@ -63,15 +87,15 @@
 
                 </ul>
                 <ul class="col-md-4 list-unstyled d-flex align-items-center">
-                    <li class="font-weight-bold text-uppercase text-white">NUESTRAS REDES</li>
-                    <li>
+                    <li class="font-weight-bold text-uppercase text-white">SIGUENOS:</li>
+                    <li class="mx-3">
                         <a target="_blank" href="http://instagram.com/magnum.agencyy"><img id="red-social"
                                 src="../multimedia/icono-ig.png" alt=""></a>
                         <a target="_blank" href="http://tiktok.com/@magnumagency"><img id="red-social"
                                 src="../multimedia/icono-tiktok.png" alt=""></a>
                         <a target="_blank"
                             href="https://api.whatsapp.com/send/?phone=5491133253198&text=Hola%2C+me+comunico+desde+instagram%2C+quisiera+m%C3%A1s+informaci%C3%B3n+para+ingresar+a+la+agencia.&app_absent=0"><img
-                            id="red-social" src="../multimedia/icono-wps.png" alt=""></a>
+                                id="red-social" src="../multimedia/icono-wps.png" alt=""></a>
                     </li>
                 </ul>
             </nav>
